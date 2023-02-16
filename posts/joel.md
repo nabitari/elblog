@@ -1,6 +1,6 @@
 ---
-title: 'Mi propio post'
-date: '2023-02-13'
+titulo: 'El Joel'
+fecha: '10/02/2023'
 ---
 
-texto para marcar la entrada que ver como me representa el blog
+Esta es la pagina de inicio JJA
