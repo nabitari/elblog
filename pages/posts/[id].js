@@ -1,5 +1,6 @@
+import PostLayout from "@/components/post_layout";
+import SEO from "@/components/SEO";
 import { getAllPostIds,getPostData } from "@/lib/lector";
-import Head from "next/head";
 
 
 export async function getStaticProps ({params}){
@@ -21,12 +22,14 @@ export async function getStaticPaths() {
 
 export default function Post({postData}){
     return(
-        <div>
+        /*De aca sale el contenido de cada post, el como se muestra*/
+        <PostLayout>
+        <SEO title={postData.titulo} description="Algo para el cambio"/>
             <article>
                 <h1>{postData.titulo}</h1>
-                <p>{postData.fecha}</p>
+                <p style={{fontSize:"12px",borderBottom: "#a38359 1px solid"}}>Fecha: {postData.fecha}</p>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
-        </div>
+        </PostLayout>
     );
 }

@@ -1,0 +1,50 @@
+.main {
+    display: grid;
+    justify-content: space-around;
+}
+/*Las .lista es el <ul>*/
+.lista {
+    background-color: rgb(88, 41, 27);
+    padding: 1em;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+/*Esto son cada elemento <li>*/
+.items{
+    display: grid;
+    grid-template-columns: 20em 0.5em 20em;
+    grid-template-rows: auto;
+    margin-bottom:0.8em;
+    border: 1px dashed #d37069;
+    padding: 0.3em;
+}
+.imagen {
+    grid-row: 1/span 3;
+    grid-column: 1/span 1;
+    justify-self: stretch;
+    width: 20em;
+    height: 13em;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 1px solid #d37069;
+}
+.p{
+    grid-column: 3/4;
+}
+.fecha{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    align-self: flex-end;
+    font-size: 12px;
+    color: rgb(212, 212, 212);
+}
+.titulo{
+    grid-column: 3/4;
+    background-color: #462922;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #d37069;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}

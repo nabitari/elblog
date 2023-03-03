@@ -1,0 +1,48 @@
+/*Barra de navegacion*/
+
+.mainBox{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #be7552;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #d37069;
+}
+.link{
+    background-color: #613426;
+    margin: 0 10px;
+    padding: 8px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.link:hover{
+    background-color: #B99566;
+    cursor: pointer;
+}
+.navLogo{
+    justify-self: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 10px;
+    padding: 8px;
+    color: #f3f3f3;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 2px 5px #5f3927;
+}
+/*	
+#f6eee3	(246,238,227)
+#eee7d7	(238,231,215)
+#e5decf	(229,222,207)
+#e5cbba	(229,203,186)
+
+#d9bda5
+#D5B78B
+#C7A575
+#B99566
+*/
