@@ -35,6 +35,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 2px 2px 5px #5f3927;
 }
+@media (max-width:700px) {
+    
+}
 /*	
 #f6eee3	(246,238,227)
 #eee7d7	(238,231,215)
